@@ -1,7 +1,9 @@
 body {
     margin: 0;
   }
-
+  .app {
+    background: #202020;
+  }
   .container {
     font-family: Helvetica;
     color: #ffffff;
@@ -19,6 +21,11 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+  .comment:hover:after{
+    cursor: pointer;
+    content:'Ответить';
+    color: #bcec30;  
   }
 
   .comment,
@@ -62,6 +69,7 @@ body {
 
   .comment-text {
     font-size: 32px;
+    white-space: pre-line;
   }
 
   .likes {
@@ -150,5 +158,47 @@ body {
   }
   .hidden {
     display: none;
+  }
+  .form-name{
+    margin-top: 12px;
+    padding: 15px;
+    resize: none;
+    font-size: 16px;
+    font-family: Helvetica;
+    border-radius: 8px;
+    border: none;
+  }
+  .form-button{
+    margin-top: 24px;
+    font-size: 24px;
+    padding: 10px 160px;
+    background-color: #bcec30;
+    border: none;
+    border-radius: 34px;
+    cursor: pointer;
+  }
+  .form{
+    font-family: Helvetica;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background: #202020;
+    min-height: 100vh;
+  }
+  .form-registr{
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .form-row{
+    display: flex;
+    justify-content: space-around;
   }
   
