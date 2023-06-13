@@ -48,12 +48,11 @@ export const renderComments = ({ comments, handleCommentAnswerClick, handleComme
         id="add-text"></textarea>
       <div class="add-form-row">
         <button id="add-button" class="add-form-button">Написать</button>
-        <button id="add-delete" class="delete-button">Удалить</button>
       </div>
     </div>
   </div>
   `
-  const textEnter = `<div id="toggle-page">Чтобы добавить комментарий, авторизируйтесь</div>
+  const textEnter = `<div id="toggle-page">Чтобы добавить комментарий, <strike>авторизируйтесь</strike></div>
   </div>`
   const addComments = () => {
     const buttonElement = document.getElementById("add-button");

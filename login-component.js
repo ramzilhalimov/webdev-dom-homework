@@ -5,7 +5,8 @@ export const renderLoginComponent = ({ appEl, initApp }) => {
   let isLoginMode = true;
   const renderForm = () => {
     const appHtml = `
-    <div class="form"></div>
+    <div class="form">
+    </div>
     <div class="add-form">Форма ${isLoginMode ? "входа" : "регистрации"}
     ${isLoginMode ? ""
         :

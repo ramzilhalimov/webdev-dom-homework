@@ -1,5 +1,6 @@
 import { now } from "./data.js";
 
+
 const baseHost = "https://wedev-api.sky.pro/api/v2/ramzil-khalimov/comments"
 
 export const getAllComments = () => {

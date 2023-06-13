@@ -147,17 +147,16 @@ body {
   .error{
     background:red;
   }
-  .delete-button{
-    margin-top: 24px;
-    font-size: 24px;
-    padding: 10px 20px;
-    background-color: #bcec30;
-    border: none;
-    border-radius: 18px;
-    cursor: pointer;
-  }
-  .hidden {
-    display: none;
+  .form{
+    font-family: Helvetica;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background: #202020;
+    min-height: 100vh;
   }
   .form-name{
     margin-top: 12px;
@@ -176,17 +175,6 @@ body {
     border: none;
     border-radius: 34px;
     cursor: pointer;
-  }
-  .form{
-    font-family: Helvetica;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 80px;
-    padding-bottom: 200px;
-    background: #202020;
-    min-height: 100vh;
   }
   .form-registr{
     margin-top: 30px;
